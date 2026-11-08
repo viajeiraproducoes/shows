@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shows · Viajeira Produções</title>
+<meta name="description" content="Shows produzidos pela Viajeira Produções: Arthur Doca canta Djavan e A Estrada do Vento – um tributo ao Clube da Esquina. Releases, vídeos, fotos e contato.">
+<meta property="og:title" content="Shows · Viajeira Produções">
+<meta property="og:description" content="Arthur Doca canta Djavan · A Estrada do Vento – um tributo ao Clube da Esquina">
+<meta property="og:image" content="https://shows.viajeira.com.br/arthur-1.jpg">
+<meta property="og:url" content="https://shows.viajeira.com.br/">
+<link rel="icon" href="logo-viajeira.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f7f2e8;--card:#fffdf8;--ink:#1d1b1b;--soft:#5d5752;--red:#d72c2c;--blue:#1f4e9c;--yellow:#f0bf2c;--line:#e5dccb;--wa:#1f9d55}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "Work Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{padding:40px 0 28px;text-align:center;position:relative}
+header img{width:220px;max-width:60%;height:auto}
+header p{margin:14px auto 0;max-width:560px;color:var(--soft);font-size:16px}
+.dots{display:flex;justify-content:center;gap:10px;margin:22px 0 0}
+.dots i{width:12px;height:12px;border-radius:50%;display:block}
+.dots i:nth-child(1){background:var(--red)}.dots i:nth-child(2){background:var(--yellow)}.dots i:nth-child(3){background:var(--blue)}.dots i:nth-child(4){background:var(--ink)}
+nav.jump{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:26px 0 0}
+nav.jump a{text-decoration:none;border:1.5px solid var(--ink);border-radius:999px;padding:7px 16px;font-size:15px;font-weight:500}
+nav.jump a:hover{background:var(--ink);color:var(--paper)}
+.show{background:var(--card);border:1px solid var(--line);border-radius:22px;margin:34px 0;overflow:hidden;box-shadow:0 1px 0 rgba(0,0,0,.03)}
+.video{position:relative;aspect-ratio:16/9;background:#111}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.body{padding:30px 32px 34px}
+.kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--red)}
+.show.blue .kicker{color:var(--blue)}
+h2{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:clamp(28px,5vw,42px);line-height:1.1;margin:8px 0 6px}
+.sub{font-family:Fraunces,Georgia,serif;font-size:19px;color:var(--soft);margin:0 0 18px}
+.lead{max-width:760px;margin:0 0 24px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 30px}
+.btn{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:600;font-size:16px;padding:13px 20px;border-radius:12px;border:2px solid var(--ink)}
+.btn.pdf{background:var(--ink);color:var(--paper)}
+.btn.wa{background:var(--wa);border-color:var(--wa);color:#fff}
+.btn svg{width:20px;height:20px;flex:none}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 30px}
+.gallery a{display:block;border-radius:12px;overflow:hidden;aspect-ratio:4/3;background:var(--line)}
+.gallery img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.gallery a:hover img{transform:scale(1.04)}
+h3{font-family:Fraunces,Georgia,serif;font-size:21px;margin:0 0 12px}
+.ficha{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px 28px;border-top:1px solid var(--line);padding-top:24px}
+.ficha dl{margin:0}
+.ficha dt{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);font-weight:600}
+.ficha dd{margin:3px 0 14px}
+.ficha ul{list-style:none;margin:4px 0 0;padding:0}
+.ficha li{padding:2px 0}
+.ficha li span{color:var(--soft);font-size:15px}
+footer{text-align:center;padding:34px 0 110px;color:var(--soft);font-size:15px}
+footer strong{color:var(--ink);font-family:Fraunces,Georgia,serif;font-size:20px;display:block;margin-bottom:6px}
+footer a{text-decoration:none;border-bottom:1px solid var(--line)}
+.float{position:fixed;right:18px;bottom:18px;z-index:9;display:flex;align-items:center;gap:8px;background:var(--wa);color:#fff;text-decoration:none;font-weight:600;padding:13px 18px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+.float svg{width:22px;height:22px}
+@media (max-width:640px){
+ body{font-size:16px}
+ .body{padding:22px 18px 26px}
+ .gallery{grid-template-columns:repeat(2,1fr)}
+ .btn{width:100%;justify-content:center}
+ .float span{display:none}.float{padding:14px}
+}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <img src="logo-viajeira.png" alt="Viajeira Produções">
+  <p>Shows para teatros, unidades do Sesc e do SESI, festivais, centros culturais e eventos. Escolha o projeto, veja o vídeo e baixe o release.</p>
+  <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <nav class="jump">
+    <a href="#djavan">Arthur Doca canta Djavan</a>
+    <a href="#estrada">A Estrada do Vento</a>
+  </nav>
+</header>
+
+<main class="wrap">
+
+<section class="show" id="djavan">
+  <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/I-GAXMjgEVY" title="Arthur Doca canta Djavan — vídeo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div class="body">
+    <div class="kicker">Show com banda · 1h30 · Livre</div>
+    <h2>Arthur Doca canta Djavan</h2>
+    <p class="sub">A obra de Djavan na voz de um djavanófilo de carteirinha</p>
+    <p class="lead">O cantor e compositor paulistano Arthur Doca revisita, com banda, a obra de Djavan: melodias sinuosas, harmonias sofisticadas e o suingue inconfundível do mestre alagoano. O repertório passeia pelos grandes sucessos que o público canta junto e pelo lado B que só quem conhece a obra a fundo interpreta com tanta propriedade. Um show vibrante e acolhedor, para todas as idades.</p>
+    <div class="actions">
+      <a class="btn pdf" href="arthur-doca-canta-djavan-release.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>Release em PDF</a>
+      <a class="btn wa" href="https://wa.me/5511997496634?text=Ol%C3%A1%2C%20Lucas!%20Vi%20a%20p%C3%A1gina%20de%20shows%20da%20Viajeira%20e%20quero%20saber%20mais%20sobre%20o%20show%20%22Arthur%20Doca%20canta%20Djavan%22." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg>Falar no WhatsApp</a>
+    </div>
+    <div class="gallery">
+      <a href="arthur-1.jpg" target="_blank"><img src="arthur-1.jpg" alt="Arthur Doca" loading="lazy"></a>
+      <a href="arthur-2.jpg" target="_blank"><img src="arthur-2.jpg" alt="Arthur Doca" loading="lazy"></a>
+      <a href="arthur-4.jpg" target="_blank"><img src="arthur-4.jpg" alt="Arthur Doca" loading="lazy"></a>
+      <a href="arthur-3.jpg" target="_blank"><img src="arthur-3.jpg" alt="Arthur Doca" loading="lazy"></a>
+      <a href="arthur-6.jpg" target="_blank"><img src="arthur-6.jpg" alt="Arthur Doca" loading="lazy"></a>
+      <a href="arthur-5.jpg" target="_blank"><img src="arthur-5.jpg" alt="Arthur Doca" loading="lazy"></a>
+    </div>
+    <h3>Ficha técnica</h3>
+    <div class="ficha">
+      <dl><dt>Formação</dt><dd><ul>
+        <li>Arthur Doca <span>· voz e violões</span></li>
+        <li>Ricardo Ramesh <span>· bateria e percussão</span></li>
+        <li>Manoel Cruz <span>· baixo</span></li>
+        <li>Cauê Dok <span>· guitarra e violões</span></li>
+      </ul></dd></dl>
+      <dl>
+        <dt>Duração</dt><dd>1h30</dd>
+        <dt>Classificação</dt><dd>Livre</dd>
+        <dt>Produção</dt><dd>Viajeira Produções</dd>
+        <dt>Fotos</dt><dd>Fábio Stamato</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="show blue" id="estrada">
+  <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/4SpiQVuuG-o" title="A Estrada do Vento — vídeo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div class="body">
+    <div class="kicker">Cordas e banda · 1h30 · Livre</div>
+    <h2>A Estrada do Vento</h2>
+    <p class="sub">Um tributo ao Clube da Esquina · Neto Bellotto, Quarteto de Cordas Paganini e banda</p>
+    <p class="lead">Neto Bellotto, cantor, violonista e principal contrabaixista da Orquestra Filarmônica de Minas Gerais, conduz o público de Travessia a O Trem Azul, de Canção da América a Clube da Esquina nº 2, com arranjos originais para cordas e banda. No palco, músicos que tocaram com Milton Nascimento e Lô Borges dividem a cena com instrumentistas da Filarmônica. Um show para cantar do começo ao fim, que já lotou plateias em diversas cidades e se adapta a teatros, ginásios e áreas abertas.</p>
+    <div class="actions">
+      <a class="btn pdf" href="a-estrada-do-vento-release.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>Release em PDF</a>
+      <a class="btn wa" href="https://wa.me/5511997496634?text=Ol%C3%A1%2C%20Lucas!%20Vi%20a%20p%C3%A1gina%20de%20shows%20da%20Viajeira%20e%20quero%20saber%20mais%20sobre%20o%20show%20%22A%20Estrada%20do%20Vento%20%E2%80%93%20um%20tributo%20ao%20Clube%20da%20Esquina%22." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg>Falar no WhatsApp</a>
+    </div>
+    <div class="gallery">
+      <a href="neto-1.jpg" target="_blank"><img src="neto-1.jpg" alt="A Estrada do Vento" loading="lazy"></a>
+      <a href="neto-2.jpg" target="_blank"><img src="neto-2.jpg" alt="A Estrada do Vento" loading="lazy"></a>
+      <a href="neto-3.jpg" target="_blank"><img src="neto-3.jpg" alt="A Estrada do Vento" loading="lazy"></a>
+      <a href="neto-4.jpg" target="_blank"><img src="neto-4.jpg" alt="A Estrada do Vento" loading="lazy"></a>
+      <a href="neto-5.jpg" target="_blank"><img src="neto-5.jpg" alt="A Estrada do Vento" loading="lazy"></a>
+      <a href="neto-6.jpg" target="_blank"><img src="neto-6.jpg" alt="A Estrada do Vento" loading="lazy"></a>
+    </div>
+    <h3>Ficha técnica</h3>
+    <div class="ficha">
+      <dl><dt>A banda</dt><dd><ul>
+        <li>Neto Bellotto <span>· voz e violão</span></li>
+        <li>Henrique Matheus <span>· guitarra</span></li>
+        <li>Thiago Corrêa <span>· baixo</span></li>
+        <li>Lincoln Cheib <span>· bateria</span></li>
+      </ul></dd></dl>
+      <dl><dt>Quarteto Paganini</dt><dd><ul>
+        <li>Jovana Trifunovic <span>· violino</span></li>
+        <li>Valentina Gostilovitch <span>· violino</span></li>
+        <li>Gilberto Paganini <span>· viola</span></li>
+        <li>Philip Hansen <span>· violoncelo</span></li>
+      </ul></dd></dl>
+      <dl>
+        <dt>Duração</dt><dd>1h30</dd>
+        <dt>Classificação</dt><dd>Livre</dd>
+        <dt>Espaços</dt><dd>Teatros, ginásios e áreas abertas</dd>
+        <dt>Produção</dt><dd>Viajeira Produções</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap">
+  <strong>Viajeira Produções</strong>
+  Lucas Faria Brito Silva<br>
+  <a href="https://wa.me/5511997496634" target="_blank" rel="noopener">WhatsApp (11) 99749-6634</a> ·
+  <a href="mailto:producoes@viajeira.com.br">producoes@viajeira.com.br</a> ·
+  <a href="https://www.instagram.com/viajeiraproducoes/" target="_blank" rel="noopener">@viajeiraproducoes</a>
+</footer>
+
+<a class="float" href="https://wa.me/5511997496634?text=Ol%C3%A1%2C%20Lucas!%20Vi%20a%20p%C3%A1gina%20de%20shows%20da%20Viajeira." target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg><span>WhatsApp</span></a>
+</body>
+</html>
