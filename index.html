@@ -58,6 +58,17 @@ h3{font-family:Fraunces,Georgia,serif;font-size:21px;margin:0 0 12px}
 footer{text-align:center;padding:34px 0 110px;color:var(--soft);font-size:15px}
 footer strong{color:var(--ink);font-family:Fraunces,Georgia,serif;font-size:20px;display:block;margin-bottom:6px}
 footer a{text-decoration:none;border-bottom:1px solid var(--line)}
+.cta{display:flex;align-items:center;gap:16px;max-width:620px;margin:26px auto 0;text-decoration:none;background:var(--wa);color:#fff;border-radius:18px;padding:18px 24px;box-shadow:0 8px 24px rgba(31,157,85,.28);text-align:left;transition:transform .2s}
+.cta:hover{transform:translateY(-2px)}
+.cta svg{width:44px;height:44px;flex:none}
+.cta b{display:block;font-size:20px;line-height:1.2}
+.cta small{display:block;font-size:17px;opacity:.95;margin-top:2px}
+.contato{background:var(--wa);color:#fff;border-radius:22px;margin:34px 0;padding:34px 28px;text-align:center}
+.contato h2{color:#fff;margin:0 0 8px}
+.contato p{margin:0 auto 22px;max-width:560px;font-size:18px}
+.contato a.big{white-space:nowrap;display:inline-flex;align-items:center;gap:12px;background:#fff;color:var(--wa);text-decoration:none;font-weight:700;font-size:22px;padding:16px 28px;border-radius:14px}
+.contato a.big svg{width:30px;height:30px}
+.contato .mail{display:block;margin-top:16px;color:#fff;font-size:16px}
 .float{position:fixed;right:18px;bottom:18px;z-index:9;display:flex;align-items:center;gap:8px;background:var(--wa);color:#fff;text-decoration:none;font-weight:600;padding:13px 18px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.18)}
 .float svg{width:22px;height:22px}
 @media (max-width:640px){
@@ -65,7 +76,8 @@ footer a{text-decoration:none;border-bottom:1px solid var(--line)}
  .body{padding:22px 18px 26px}
  .gallery{grid-template-columns:repeat(2,1fr)}
  .btn{width:100%;justify-content:center}
- .float span{display:none}.float{padding:14px}
+ .cta{padding:16px 18px}.cta b{font-size:18px}.cta svg{width:38px;height:38px}
+ .contato a.big{font-size:19px;padding:14px 20px}
 }
 </style>
 </head>
@@ -74,6 +86,7 @@ footer a{text-decoration:none;border-bottom:1px solid var(--line)}
   <img src="logo-viajeira.png" alt="Viajeira Produções">
   <p>Shows para teatros, unidades do Sesc e do SESI, festivais, centros culturais e eventos. Escolha o projeto, veja o vídeo e baixe o release.</p>
   <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <a class="cta" href="https://wa.me/5511997496634?text=Ol%C3%A1%2C%20Lucas!%20Vi%20a%20p%C3%A1gina%20de%20shows%20da%20Viajeira%20e%20quero%20contratar%20um%20show." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg><span><b>Contrate um show: fale com o Lucas no WhatsApp</b><small>(11) 99749-6634</small></span></a>
   <nav class="jump">
     <a href="#djavan">Arthur Doca canta Djavan</a>
     <a href="#estrada">A Estrada do Vento</a>
@@ -162,6 +175,13 @@ footer a{text-decoration:none;border-bottom:1px solid var(--line)}
   </div>
 </section>
 
+<section class="contato" id="contato">
+  <h2>Vamos levar um show até você?</h2>
+  <p>Datas, valores, rider técnico e formatos: tudo pelo WhatsApp, direto com o produtor.</p>
+  <a class="big" href="https://wa.me/5511997496634?text=Ol%C3%A1%2C%20Lucas!%20Vi%20a%20p%C3%A1gina%20de%20shows%20da%20Viajeira%20e%20quero%20contratar%20um%20show." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg>(11) 99749-6634</a>
+  <a class="mail" href="mailto:producoes@viajeira.com.br">ou producoes@viajeira.com.br</a>
+</section>
+
 </main>
 
 <footer class="wrap">
@@ -172,6 +192,6 @@ footer a{text-decoration:none;border-bottom:1px solid var(--line)}
   <a href="https://www.instagram.com/viajeiraproducoes/" target="_blank" rel="noopener">@viajeiraproducoes</a>
 </footer>
 
-<a class="float" href="https://wa.me/5511997496634?text=Ol%C3%A1%2C%20Lucas!%20Vi%20a%20p%C3%A1gina%20de%20shows%20da%20Viajeira." target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg><span>WhatsApp</span></a>
+<a class="float" href="https://wa.me/5511997496634?text=Ol%C3%A1%2C%20Lucas!%20Vi%20a%20p%C3%A1gina%20de%20shows%20da%20Viajeira." target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg><span>Fale no WhatsApp</span></a>
 </body>
 </html>
